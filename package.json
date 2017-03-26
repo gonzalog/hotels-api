@@ -1,0 +1,12 @@
+{
+  "name": "almundo-api",
+  "dependencies": {
+    "express": "4.x",
+    "express-graphql": "^0.6.3",
+    "graphql": "0.9.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node app/index.js"
+  }
+}

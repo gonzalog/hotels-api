@@ -1,0 +1,56 @@
+[
+  {
+    "id" : 1,
+    "name" : "Hotel Emperador",
+    "stars" : "3",
+    "price" : "1596"
+  },
+  {
+    "id" : 2,
+    "name" : "Petit Palace San Bernardo",
+    "stars" : "4",
+    "price" : "2145"
+  },
+  {
+    "id" : 3,
+    "name" : "Hotel Nuevo Boston",
+    "stars" : "2",
+    "price" : "861"
+  },
+  {
+    "id" : 4,
+    "name" : "Elizabeth",
+    "stars" : "2",
+    "price" : "959"
+  },
+  {
+    "id" : 5,
+    "name" : "Posada del caminante",
+    "stars" : "2",
+    "price" : "585"
+  },
+  {
+    "id" : 6,
+    "name" : "Lo de Jorge",
+    "stars" : "2",
+    "price" : "761"
+  },
+  {
+    "id" : 7,
+    "name" : "Hotel Sheraton",
+    "stars" : "5",
+    "price" : "898"
+  },
+  {
+    "id" : 8,
+    "name" : "Hotel Palace",
+    "stars" : "2",
+    "price" : "521"
+  },
+  {
+    "id" : 9,
+    "name" : "Hilton",
+    "stars" : "5",
+    "price" : "1861"
+  }
+]
