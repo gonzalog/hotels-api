@@ -9,6 +9,7 @@ app.use('/', graphqlHTTP({
   graphiql: true
 }));
 
+console.log("Initializing server...")
 console.log(process.env.PORT)
 const PORT = process.env.PORT || 4000
 app.listen(PORT)
