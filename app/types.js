@@ -6,7 +6,8 @@ exports.HotelType = new GraphQLObjectType({
   	id: { type: GraphQLInt },
     name: { type: GraphQLString },
     stars: { type: GraphQLString },
-    price: { type: GraphQLString }
+    price: { type: GraphQLString },
+    imageUrl: { type: GraphQLString }
   }
 })
 
