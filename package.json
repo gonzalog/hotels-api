@@ -1,6 +1,7 @@
 {
   "name": "almundo-api",
   "dependencies": {
+    "cors": "^2.8.2",
     "express": "4.x",
     "express-graphql": "^0.6.3",
     "graphql": "0.9.1"
