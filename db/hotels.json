@@ -4,62 +4,80 @@
     "name" : "Hotel Emperador",
     "stars" : "3",
     "price" : "1596",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": true,
+    "discount": 0
   },
   {
     "id" : 2,
     "name" : "Petit Palace San Bernardo",
     "stars" : "4",
     "price" : "2145",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": true,
+    "discount": 0
   },
   {
     "id" : 3,
     "name" : "Hotel Nuevo Boston",
     "stars" : "2",
     "price" : "861",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": false,
+    "discount": 23
   },
   {
     "id" : 4,
     "name" : "Elizabeth",
     "stars" : "2",
     "price" : "959",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": false,
+    "discount": 0
   },
   {
     "id" : 5,
     "name" : "Posada del caminante",
     "stars" : "2",
     "price" : "585",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": false,
+    "discount": 0
   },
   {
     "id" : 6,
     "name" : "Lo de Jorge",
     "stars" : "2",
     "price" : "761",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": false,
+    "discount": 0
   },
   {
     "id" : 7,
     "name" : "Hotel Sheraton",
     "stars" : "5",
     "price" : "898",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": false,
+    "discount": 0
   },
   {
     "id" : 8,
     "name" : "Hotel Palace",
     "stars" : "2",
     "price" : "521",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": false,
+    "discount": 0
   },
   {
     "id" : 9,
     "name" : "Hilton",
     "stars" : "5",
     "price" : "1861",
-    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg"
+    "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
+    "recommended": false,
+    "discount": 0
   }
 ]
