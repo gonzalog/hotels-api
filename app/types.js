@@ -1,4 +1,4 @@
-const { GraphQLObjectType, GraphQLString, GraphQLInt } = require('graphql')
+const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLInputObjectType } = require('graphql')
 
 exports.HotelType = new GraphQLObjectType({
   name: 'HotelType',
@@ -9,3 +9,13 @@ exports.HotelType = new GraphQLObjectType({
     price: { type: GraphQLString }
   }
 })
+
+exports.AvailabilityInputType = new GraphQLInputObjectType({
+  name: 'AvailabilityType',
+  fields: {
+  	from: { type: GraphQLString },
+  	upTo: { type: GraphQLString },
+  	guests: { type: GraphQLInt }
+  }
+})
+

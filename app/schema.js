@@ -1,5 +1,5 @@
-const { GraphQLSchema, GraphQLObjectType, GraphQLList, GraphQLInt } = require('graphql')
-const { HotelType } = require('./types.js')
+const { GraphQLSchema, GraphQLObjectType, GraphQLList, GraphQLInt,GraphQLString } = require('graphql')
+const { HotelType, AvailabilityInputType } = require('./types.js')
 const { hotelLoader } = require('./loaders.js')
 
 exports.schema = new GraphQLSchema({
@@ -17,13 +17,21 @@ exports.schema = new GraphQLSchema({
           ids: {
             type: new GraphQLList(GraphQLInt),
             description: "Individually identifies which hotels should be returned"
+          },
+          city: {
+            type: GraphQLString,
+            description: "Specifies which city should hotels be selected from"
+          },
+          availability: {
+            type: AvailabilityInputType,
+            description: "Specifies required dates range and guests count"
           }
         },
-        resolve: (root, { ids, count }) => {
+        resolve: (root, { ids, count, availability, city }) => {
           if(ids)
             return hotelLoader.load(ids)
           else
-            return hotelLoader.loadAll({ limit: count })
+            return hotelLoader.loadAll({ limit: count, availability: availability, city: city })
         }
       }
     }
