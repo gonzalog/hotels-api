@@ -11,7 +11,7 @@ exports.HotelType = new GraphQLObjectType({
 })
 
 exports.AvailabilityInputType = new GraphQLInputObjectType({
-  name: 'AvailabilityType',
+  name: 'AvailabilityInputType',
   fields: {
   	from: { type: GraphQLString },
   	upTo: { type: GraphQLString },
