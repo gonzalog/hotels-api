@@ -6,7 +6,7 @@
     "price" : "1596",
     "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
     "recommended": true,
-    "discount": 0
+    "discount": 15
   },
   {
     "id" : 2,
@@ -33,7 +33,7 @@
     "price" : "959",
     "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
     "recommended": false,
-    "discount": 0
+    "discount": 5
   },
   {
     "id" : 5,
@@ -51,7 +51,7 @@
     "price" : "761",
     "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
     "recommended": false,
-    "discount": 0
+    "discount": 45
   },
   {
     "id" : 7,
@@ -78,6 +78,6 @@
     "price" : "1861",
     "imageUrl" : "https://media-cdn.tripadvisor.com/media/photo-s/07/9c/8b/8b/hotel-yurbban-trafalgar.jpg",
     "recommended": false,
-    "discount": 0
+    "discount": 5
   }
 ]
